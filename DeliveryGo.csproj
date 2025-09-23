@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0AC9402B-636F-45DA-926A-BAA94A722F06}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>DeliveryGo</RootNamespace>
+    <AssemblyName>DeliveryGo</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\Command\Carrito.cs" />
+    <Compile Include="Core\Command\CarritoPort.cs" />
+    <Compile Include="Core\Command\Commands\AgregarItemCommand.cs" />
+    <Compile Include="Core\Command\Commands\EditorCarrito.cs" />
+    <Compile Include="Core\Command\Commands\QuitarItemCommand.cs" />
+    <Compile Include="Core\Command\Commands\SetCantidadCommand.cs" />
+    <Compile Include="Core\Command\Item.cs" />
+    <Compile Include="Core\Enum\Enums.cs" />
+    <Compile Include="Core\Facade\CheckoutFacade.cs" />
+    <Compile Include="Core\Order\Observers\AuditoriaObserver.cs" />
+    <Compile Include="Core\Order\Observers\ClienteObserver.cs" />
+    <Compile Include="Core\Order\Observers\LogisticaObserver.cs" />
+    <Compile Include="Core\Order\Pedido.cs" />
+    <Compile Include="Core\Order\PedidoBuilder.cs" />
+    <Compile Include="Core\Order\PedidoChangedEventArgs.cs" />
+    <Compile Include="Core\Order\PedidoService.cs" />
+    <Compile Include="Core\Payment\Adapters\MpSdkFalsa.cs" />
+    <Compile Include="Core\Payment\Adapters\PagoAdapterMp.cs" />
+    <Compile Include="Core\Payment\Decorators\PagoConCupon.cs" />
+    <Compile Include="Core\Payment\Decorators\PagoConImpuesto.cs" />
+    <Compile Include="Core\Payment\Metodos\PagoMp.cs" />
+    <Compile Include="Core\Payment\Metodos\PagoTarjeta.cs" />
+    <Compile Include="Core\Payment\Metodos\PagoTransferencia.cs" />
+    <Compile Include="Core\Payment\PagoFactory.cs" />
+    <Compile Include="Core\Singlenton\ConfigManager.cs" />
+    <Compile Include="Core\Strategy\EnvioService.cs" />
+    <Compile Include="Core\Strategy\Strategies\EnvioCorreo.cs" />
+    <Compile Include="Core\Strategy\Strategies\EnvioMoto.cs" />
+    <Compile Include="Core\Strategy\Strategies\RetiroEnTienda.cs" />
+    <Compile Include="Interfaces\ICarritoPort.cs" />
+    <Compile Include="Interfaces\ICommand.cs" />
+    <Compile Include="Interfaces\IEnvioStrategy.cs" />
+    <Compile Include="Interfaces\IPago.cs" />
+    <Compile Include="Interfaces\IPedidoBuilder.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
