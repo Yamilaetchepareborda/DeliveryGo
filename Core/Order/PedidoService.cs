@@ -9,7 +9,7 @@ namespace DeliveryGo.Core.Order
 {
     public class PedidoService
     {
-        public event EventHandler<PedidoChangedEventArgs>? EstadoCambiado;
+        public event EventHandler<PedidoChangedEventArgs> EstadoCambiado;
 
         public void CambiarEstado(int pedidoId, EstadoPedido nuevo)
             => EstadoCambiado?.Invoke(this, new PedidoChangedEventArgs(pedidoId, nuevo, DateTime.Now));

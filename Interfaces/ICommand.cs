@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DeliveryGo.Interfaces
 {
-    internal interface ICommand
+    public interface ICommand
     {
     }
 }

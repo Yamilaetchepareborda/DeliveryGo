@@ -8,7 +8,7 @@ namespace DeliveryGo.Core.Singlenton
 {
     public sealed class ConfigManager
     {
-        private static readonly Lazy<ConfigManager> _inst = new(() => new ConfigManager());
+        private static readonly Lazy<ConfigManager> _inst = new Lazy<ConfigManager>(() => new ConfigManager());
         public static ConfigManager Instance => _inst.Value;
         private ConfigManager() { }
 
