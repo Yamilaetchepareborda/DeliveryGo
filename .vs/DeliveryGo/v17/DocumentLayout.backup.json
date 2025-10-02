@@ -1,122 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\",
+  "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive\\Escritorio\\IDRA\\2do a\u00F1o\\PROGRAMACION 2\\DeliveryGo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|c:\\users\\chedraui\\onedrive\\documentos\\facultad\\2 anio\\programacion 2\\deliverygo\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\PC\\OneDrive\\Escritorio\\IDRA\\2do a\u00F1o\\PROGRAMACION 2\\DeliveryGo\\Core\\Order\\PedidoBuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:Core\\Order\\PedidoBuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|c:\\users\\chedraui\\onedrive\\documentos\\facultad\\2 anio\\programacion 2\\deliverygo\\core\\order\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:core\\order\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\core\\singlenton\\configmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:core\\singlenton\\configmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\core\\order\\pedidochangedeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:core\\order\\pedidochangedeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\core\\order\\observers\\auditoriaobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:core\\order\\observers\\auditoriaobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\core\\payment\\pagofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:core\\payment\\pagofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\core\\command\\commands\\setcantidadcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:core\\command\\commands\\setcantidadcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\core\\command\\commands\\quitaritemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:core\\command\\commands\\quitaritemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\core\\command\\commands\\editorcarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:core\\command\\commands\\editorcarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\core\\command\\commands\\agregaritemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:core\\command\\commands\\agregaritemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\core\\command\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:core\\command\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\core\\command\\carritoport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:core\\command\\carritoport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\core\\command\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:core\\command\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\core\\enum\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:core\\enum\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\core\\order\\pedidobuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:core\\order\\pedidobuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\core\\order\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:core\\order\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\core\\payment\\decorators\\pagoconcupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:core\\payment\\decorators\\pagoconcupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\core\\payment\\metodos\\pagotransferencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:core\\payment\\metodos\\pagotransferencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\core\\payment\\metodos\\pagotarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:core\\payment\\metodos\\pagotarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\core\\payment\\metodos\\pagomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:core\\payment\\metodos\\pagomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\core\\strategy\\strategies\\retiroentienda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:core\\strategy\\strategies\\retiroentienda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\core\\strategy\\strategies\\enviomoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:core\\strategy\\strategies\\enviomoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\core\\strategy\\strategies\\enviocorreo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:core\\strategy\\strategies\\enviocorreo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\interfaces\\icarritoport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:interfaces\\icarritoport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\interfaces\\ipedidobuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\PC\\OneDrive\\Escritorio\\IDRA\\2do a\u00F1o\\PROGRAMACION 2\\DeliveryGo\\interfaces\\ipedidobuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:interfaces\\ipedidobuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\interfaces\\ipago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:interfaces\\ipago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|c:\\users\\pc\\onedrive\\escritorio\\idra\\2do a\u00F1o\\programacion 2\\deliverygo\\core\\facade\\checkoutfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:core\\facade\\checkoutfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\interfaces\\ienviostrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:interfaces\\ienviostrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|c:\\users\\pc\\onedrive\\escritorio\\idra\\2do a\u00F1o\\programacion 2\\deliverygo\\core\\order\\observers\\auditoriaobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:core\\order\\observers\\auditoriaobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\interfaces\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:interfaces\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|c:\\users\\pc\\onedrive\\escritorio\\idra\\2do a\u00F1o\\programacion 2\\deliverygo\\core\\order\\observers\\logisticaobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:core\\order\\observers\\logisticaobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|c:\\users\\pc\\onedrive\\escritorio\\idra\\2do a\u00F1o\\programacion 2\\deliverygo\\core\\order\\observers\\clienteobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:core\\order\\observers\\clienteobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|c:\\users\\pc\\onedrive\\escritorio\\idra\\2do a\u00F1o\\programacion 2\\deliverygo\\core\\order\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:core\\order\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|c:\\users\\pc\\onedrive\\escritorio\\idra\\2do a\u00F1o\\programacion 2\\deliverygo\\core\\order\\pedidochangedeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:core\\order\\pedidochangedeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|c:\\users\\pc\\onedrive\\escritorio\\idra\\2do a\u00F1o\\programacion 2\\deliverygo\\core\\order\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:core\\order\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|C:\\Users\\PC\\OneDrive\\Escritorio\\IDRA\\2do a\u00F1o\\PROGRAMACION 2\\DeliveryGo\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC9402B-636F-45DA-926A-BAA94A722F06}|DeliveryGo.csproj|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -126,353 +50,136 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\App.config",
-              "RelativeDocumentMoniker": "App.config",
-              "ToolTip": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\App.config",
-              "RelativeToolTip": "App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-09-29T18:51:38.161Z",
+              "DocumentIndex": 2,
+              "Title": "CheckoutFacade.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\IDRA\\2do a\u00F1o\\PROGRAMACION 2\\DeliveryGo\\Core\\Facade\\CheckoutFacade.cs",
+              "RelativeDocumentMoniker": "Core\\Facade\\CheckoutFacade.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\IDRA\\2do a\u00F1o\\PROGRAMACION 2\\DeliveryGo\\Core\\Facade\\CheckoutFacade.cs",
+              "RelativeToolTip": "Core\\Facade\\CheckoutFacade.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAwwFgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T21:07:47.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuditoriaObserver.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\IDRA\\2do a\u00F1o\\PROGRAMACION 2\\DeliveryGo\\Core\\Order\\Observers\\AuditoriaObserver.cs",
+              "RelativeDocumentMoniker": "Core\\Order\\Observers\\AuditoriaObserver.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\IDRA\\2do a\u00F1o\\PROGRAMACION 2\\DeliveryGo\\Core\\Order\\Observers\\AuditoriaObserver.cs",
+              "RelativeToolTip": "Core\\Order\\Observers\\AuditoriaObserver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T21:06:20.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LogisticaObserver.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\IDRA\\2do a\u00F1o\\PROGRAMACION 2\\DeliveryGo\\Core\\Order\\Observers\\LogisticaObserver.cs",
+              "RelativeDocumentMoniker": "Core\\Order\\Observers\\LogisticaObserver.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\IDRA\\2do a\u00F1o\\PROGRAMACION 2\\DeliveryGo\\Core\\Order\\Observers\\LogisticaObserver.cs",
+              "RelativeToolTip": "Core\\Order\\Observers\\LogisticaObserver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAB7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T20:44:37.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClienteObserver.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\IDRA\\2do a\u00F1o\\PROGRAMACION 2\\DeliveryGo\\Core\\Order\\Observers\\ClienteObserver.cs",
+              "RelativeDocumentMoniker": "Core\\Order\\Observers\\ClienteObserver.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\IDRA\\2do a\u00F1o\\PROGRAMACION 2\\DeliveryGo\\Core\\Order\\Observers\\ClienteObserver.cs",
+              "RelativeToolTip": "Core\\Order\\Observers\\ClienteObserver.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T20:44:07.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PedidoService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\IDRA\\2do a\u00F1o\\PROGRAMACION 2\\DeliveryGo\\Core\\Order\\PedidoService.cs",
+              "RelativeDocumentMoniker": "Core\\Order\\PedidoService.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\IDRA\\2do a\u00F1o\\PROGRAMACION 2\\DeliveryGo\\Core\\Order\\PedidoService.cs",
+              "RelativeToolTip": "Core\\Order\\PedidoService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T20:43:46.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PedidoChangedEventArgs.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\IDRA\\2do a\u00F1o\\PROGRAMACION 2\\DeliveryGo\\Core\\Order\\PedidoChangedEventArgs.cs",
+              "RelativeDocumentMoniker": "Core\\Order\\PedidoChangedEventArgs.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\IDRA\\2do a\u00F1o\\PROGRAMACION 2\\DeliveryGo\\Core\\Order\\PedidoChangedEventArgs.cs",
+              "RelativeToolTip": "Core\\Order\\PedidoChangedEventArgs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T20:43:31.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\IDRA\\2do a\u00F1o\\PROGRAMACION 2\\DeliveryGo\\Core\\Order\\Pedido.cs",
+              "RelativeDocumentMoniker": "Core\\Order\\Pedido.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\IDRA\\2do a\u00F1o\\PROGRAMACION 2\\DeliveryGo\\Core\\Order\\Pedido.cs",
+              "RelativeToolTip": "Core\\Order\\Pedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T22:22:37.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PedidoService.cs",
-              "DocumentMoniker": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Order\\PedidoService.cs",
-              "RelativeDocumentMoniker": "Core\\Order\\PedidoService.cs",
-              "ToolTip": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Order\\PedidoService.cs",
-              "RelativeToolTip": "Core\\Order\\PedidoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABDAAAAAAAAAA==",
+              "Title": "IPedidoBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\IDRA\\2do a\u00F1o\\PROGRAMACION 2\\DeliveryGo\\Interfaces\\IPedidoBuilder.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IPedidoBuilder.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\IDRA\\2do a\u00F1o\\PROGRAMACION 2\\DeliveryGo\\Interfaces\\IPedidoBuilder.cs",
+              "RelativeToolTip": "Interfaces\\IPedidoBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:46:01.523Z",
+              "WhenOpened": "2025-09-30T22:11:38.85Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuditoriaObserver.cs",
-              "DocumentMoniker": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Order\\Observers\\AuditoriaObserver.cs",
-              "RelativeDocumentMoniker": "Core\\Order\\Observers\\AuditoriaObserver.cs",
-              "ToolTip": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Order\\Observers\\AuditoriaObserver.cs",
-              "RelativeToolTip": "Core\\Order\\Observers\\AuditoriaObserver.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PedidoBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\IDRA\\2do a\u00F1o\\PROGRAMACION 2\\DeliveryGo\\Core\\Order\\PedidoBuilder.cs",
+              "RelativeDocumentMoniker": "Core\\Order\\PedidoBuilder.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\IDRA\\2do a\u00F1o\\PROGRAMACION 2\\DeliveryGo\\Core\\Order\\PedidoBuilder.cs",
+              "RelativeToolTip": "Core\\Order\\PedidoBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:45:53.004Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SetCantidadCommand.cs",
-              "DocumentMoniker": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Command\\Commands\\SetCantidadCommand.cs",
-              "RelativeDocumentMoniker": "Core\\Command\\Commands\\SetCantidadCommand.cs",
-              "ToolTip": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Command\\Commands\\SetCantidadCommand.cs",
-              "RelativeToolTip": "Core\\Command\\Commands\\SetCantidadCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:45:34.969Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ConfigManager.cs",
-              "DocumentMoniker": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Singlenton\\ConfigManager.cs",
-              "RelativeDocumentMoniker": "Core\\Singlenton\\ConfigManager.cs",
-              "ToolTip": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Singlenton\\ConfigManager.cs",
-              "RelativeToolTip": "Core\\Singlenton\\ConfigManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:43:04.283Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PedidoChangedEventArgs.cs",
-              "DocumentMoniker": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Order\\PedidoChangedEventArgs.cs",
-              "RelativeDocumentMoniker": "Core\\Order\\PedidoChangedEventArgs.cs",
-              "ToolTip": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Order\\PedidoChangedEventArgs.cs",
-              "RelativeToolTip": "Core\\Order\\PedidoChangedEventArgs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:44:37.447Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "QuitarItemCommand.cs",
-              "DocumentMoniker": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Command\\Commands\\QuitarItemCommand.cs",
-              "RelativeDocumentMoniker": "Core\\Command\\Commands\\QuitarItemCommand.cs",
-              "ToolTip": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Command\\Commands\\QuitarItemCommand.cs",
-              "RelativeToolTip": "Core\\Command\\Commands\\QuitarItemCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:45:33.964Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EditorCarrito.cs",
-              "DocumentMoniker": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Command\\Commands\\EditorCarrito.cs",
-              "RelativeDocumentMoniker": "Core\\Command\\Commands\\EditorCarrito.cs",
-              "ToolTip": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Command\\Commands\\EditorCarrito.cs",
-              "RelativeToolTip": "Core\\Command\\Commands\\EditorCarrito.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:45:32.834Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PagoFactory.cs",
-              "DocumentMoniker": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Payment\\PagoFactory.cs",
-              "RelativeDocumentMoniker": "Core\\Payment\\PagoFactory.cs",
-              "ToolTip": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Payment\\PagoFactory.cs",
-              "RelativeToolTip": "Core\\Payment\\PagoFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:44:15.03Z"
+              "WhenOpened": "2025-09-30T19:19:27.647Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "AgregarItemCommand.cs",
-              "DocumentMoniker": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Command\\Commands\\AgregarItemCommand.cs",
-              "RelativeDocumentMoniker": "Core\\Command\\Commands\\AgregarItemCommand.cs",
-              "ToolTip": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Command\\Commands\\AgregarItemCommand.cs",
-              "RelativeToolTip": "Core\\Command\\Commands\\AgregarItemCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:45:31.625Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Enums.cs",
-              "DocumentMoniker": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Enum\\Enums.cs",
-              "RelativeDocumentMoniker": "Core\\Enum\\Enums.cs",
-              "ToolTip": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Enum\\Enums.cs",
-              "RelativeToolTip": "Core\\Enum\\Enums.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:45:23.77Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PedidoBuilder.cs",
-              "DocumentMoniker": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Order\\PedidoBuilder.cs",
-              "RelativeDocumentMoniker": "Core\\Order\\PedidoBuilder.cs",
-              "ToolTip": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Order\\PedidoBuilder.cs",
-              "RelativeToolTip": "Core\\Order\\PedidoBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:44:36.05Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Carrito.cs",
-              "DocumentMoniker": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Command\\Carrito.cs",
-              "RelativeDocumentMoniker": "Core\\Command\\Carrito.cs",
-              "ToolTip": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Command\\Carrito.cs",
-              "RelativeToolTip": "Core\\Command\\Carrito.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:41:30.379Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CarritoPort.cs",
-              "DocumentMoniker": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Command\\CarritoPort.cs",
-              "RelativeDocumentMoniker": "Core\\Command\\CarritoPort.cs",
-              "ToolTip": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Command\\CarritoPort.cs",
-              "RelativeToolTip": "Core\\Command\\CarritoPort.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:41:31.627Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Command\\Item.cs",
-              "RelativeDocumentMoniker": "Core\\Command\\Item.cs",
-              "ToolTip": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Command\\Item.cs",
-              "RelativeToolTip": "Core\\Command\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:41:32.978Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Pedido.cs",
-              "DocumentMoniker": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Order\\Pedido.cs",
-              "RelativeDocumentMoniker": "Core\\Order\\Pedido.cs",
-              "ToolTip": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Order\\Pedido.cs",
-              "RelativeToolTip": "Core\\Order\\Pedido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:44:35.143Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "PagoConCupon.cs",
-              "DocumentMoniker": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Payment\\Decorators\\PagoConCupon.cs",
-              "RelativeDocumentMoniker": "Core\\Payment\\Decorators\\PagoConCupon.cs",
-              "ToolTip": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Payment\\Decorators\\PagoConCupon.cs",
-              "RelativeToolTip": "Core\\Payment\\Decorators\\PagoConCupon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:44:22.519Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "PagoTransferencia.cs",
-              "DocumentMoniker": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Payment\\Metodos\\PagoTransferencia.cs",
-              "RelativeDocumentMoniker": "Core\\Payment\\Metodos\\PagoTransferencia.cs",
-              "ToolTip": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Payment\\Metodos\\PagoTransferencia.cs",
-              "RelativeToolTip": "Core\\Payment\\Metodos\\PagoTransferencia.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:44:19.779Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PagoTarjeta.cs",
-              "DocumentMoniker": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Payment\\Metodos\\PagoTarjeta.cs",
-              "RelativeDocumentMoniker": "Core\\Payment\\Metodos\\PagoTarjeta.cs",
-              "ToolTip": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Payment\\Metodos\\PagoTarjeta.cs",
-              "RelativeToolTip": "Core\\Payment\\Metodos\\PagoTarjeta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:44:18.613Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "PagoMp.cs",
-              "DocumentMoniker": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Payment\\Metodos\\PagoMp.cs",
-              "RelativeDocumentMoniker": "Core\\Payment\\Metodos\\PagoMp.cs",
-              "ToolTip": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Payment\\Metodos\\PagoMp.cs",
-              "RelativeToolTip": "Core\\Payment\\Metodos\\PagoMp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:44:17.528Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "RetiroEnTienda.cs",
-              "DocumentMoniker": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Strategy\\Strategies\\RetiroEnTienda.cs",
-              "RelativeDocumentMoniker": "Core\\Strategy\\Strategies\\RetiroEnTienda.cs",
-              "ToolTip": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Strategy\\Strategies\\RetiroEnTienda.cs",
-              "RelativeToolTip": "Core\\Strategy\\Strategies\\RetiroEnTienda.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:42:59.653Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "EnvioMoto.cs",
-              "DocumentMoniker": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Strategy\\Strategies\\EnvioMoto.cs",
-              "RelativeDocumentMoniker": "Core\\Strategy\\Strategies\\EnvioMoto.cs",
-              "ToolTip": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Strategy\\Strategies\\EnvioMoto.cs",
-              "RelativeToolTip": "Core\\Strategy\\Strategies\\EnvioMoto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:42:58.599Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "EnvioCorreo.cs",
-              "DocumentMoniker": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Strategy\\Strategies\\EnvioCorreo.cs",
-              "RelativeDocumentMoniker": "Core\\Strategy\\Strategies\\EnvioCorreo.cs",
-              "ToolTip": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Core\\Strategy\\Strategies\\EnvioCorreo.cs",
-              "RelativeToolTip": "Core\\Strategy\\Strategies\\EnvioCorreo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:42:57.481Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IPedidoBuilder.cs",
-              "DocumentMoniker": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Interfaces\\IPedidoBuilder.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IPedidoBuilder.cs",
-              "ToolTip": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Interfaces\\IPedidoBuilder.cs",
-              "RelativeToolTip": "Interfaces\\IPedidoBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:42:45.449Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "IPago.cs",
-              "DocumentMoniker": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Interfaces\\IPago.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IPago.cs",
-              "ToolTip": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Interfaces\\IPago.cs",
-              "RelativeToolTip": "Interfaces\\IPago.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:42:43.527Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ICommand.cs",
-              "DocumentMoniker": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Interfaces\\ICommand.cs",
-              "RelativeDocumentMoniker": "Interfaces\\ICommand.cs",
-              "ToolTip": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Interfaces\\ICommand.cs",
-              "RelativeToolTip": "Interfaces\\ICommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:42:15.472Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ICarritoPort.cs",
-              "DocumentMoniker": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Interfaces\\ICarritoPort.cs",
-              "RelativeDocumentMoniker": "Interfaces\\ICarritoPort.cs",
-              "ToolTip": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Interfaces\\ICarritoPort.cs",
-              "RelativeToolTip": "Interfaces\\ICarritoPort.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:41:57.954Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IEnvioStrategy.cs",
-              "DocumentMoniker": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Interfaces\\IEnvioStrategy.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IEnvioStrategy.cs",
-              "ToolTip": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Interfaces\\IEnvioStrategy.cs",
-              "RelativeToolTip": "Interfaces\\IEnvioStrategy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:41:39.065Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\IDRA\\2do a\u00F1o\\PROGRAMACION 2\\DeliveryGo\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\chedraui\\OneDrive\\Documentos\\facultad\\2 anio\\Programacion 2\\DeliveryGo\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\IDRA\\2do a\u00F1o\\PROGRAMACION 2\\DeliveryGo\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
