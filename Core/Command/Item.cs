@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DeliveryGo.Core.Command
 {
-    internal class Item
+    public class Item
     {
     }
 }

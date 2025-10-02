@@ -57,6 +57,7 @@
     <Compile Include="Core\Order\Observers\LogisticaObserver.cs" />
     <Compile Include="Core\Order\Pedido.cs" />
     <Compile Include="Core\Order\PedidoBuilder.cs" />
+    <Compile Include="Core\Order\PedidoBuilderBase.cs" />
     <Compile Include="Core\Order\PedidoChangedEventArgs.cs" />
     <Compile Include="Core\Order\PedidoService.cs" />
     <Compile Include="Core\Payment\Adapters\MpSdkFalsa.cs" />
