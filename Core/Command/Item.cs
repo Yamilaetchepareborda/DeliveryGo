@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace DeliveryGo.Core.Command
 {
+<<<<<<< HEAD
     //Clase que representa un item en el carrito de compras
+=======
+>>>>>>> origin/main
     public class Item
     {
         //Sku: identificador unico del item
