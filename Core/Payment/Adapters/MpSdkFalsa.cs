@@ -8,5 +8,17 @@ namespace DeliveryGo.Core.Payment.Adapters
 {
     internal class MpSdkFalsa
     {
+        
+        public bool Cobrar(decimal monto)
+        {
+            if(monto<= 0m)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
     }
 }
