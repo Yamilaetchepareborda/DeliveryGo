@@ -5,11 +5,11 @@ using System.Linq;
 
 namespace DeliveryGo.Core.Order
 {
-    public class PedidoBuilderBase
+    public class PedidoBuilderBase 
     {
+        protected readonly Pedido _pedido = new Pedido();
 
-
-        public IPedidoBuilder ConItems(IEnumerable<Item> items)
+        public PedidoBuilderBase ConItems(IEnumerable<Item> items)
         {
             _pedido.Items = items?.ToList() ?? new List<Item>();
             return this;
