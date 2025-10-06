@@ -1,6 +1,6 @@
 # DeliveryGo
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-  * Mini-ecommerce en consola desarrollado en C# como trabajo integral de Patrones de Diseño para la materia Programación II. *
+ *Mini-ecommerce en consola desarrollado en C# como trabajo integral de Patrones de Diseño para la materia Programación II.*
 
   El programa ofrece a el cliente la gestion de un Mini-ecommerce.
   Utilizando las herramientas que nos brinda C#(.NET) construimos diferentes estructuras y funcionalidades que nos permiten:
