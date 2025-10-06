@@ -88,5 +88,11 @@ namespace DeliveryGo.Core.Command
             }
             return total;   
         }
+
+        public List<Item> GetItems()
+        {
+            return _items.Values.ToList();
+        }
+
     }
 }

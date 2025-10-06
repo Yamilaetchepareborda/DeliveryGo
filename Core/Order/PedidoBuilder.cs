@@ -31,9 +31,9 @@ namespace DeliveryGo.Core.Order
 
         public IPedidoBuilder ConItems(IEnumerable<(string sku, string nombre, decimal precio, int cantidad)> items)
         {
-          _pedido.Items = items
-          .Select(i => new Item { Sku = i.sku, Nombre = i.nombre, Precio = i.precio, Cantidad = i.cantidad })
-          .ToList();
+            _pedido.Items = items
+            .Select(i => new Item(i.sku, i.nombre, i.precio, i.cantidad))
+            .ToList();
             return this;
         }
 

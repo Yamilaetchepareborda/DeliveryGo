@@ -25,5 +25,12 @@ namespace DeliveryGo.Core.Command
         public ICommand QuitarItem(string sku)=> new QuitarItemCommand(_carrito, sku);
         public ICommand SetCantidad(string sku, int cantidad)=> new SetCantidadCommand(_carrito, sku, cantidad);
 
+        public List<Item> ObtenerItems()
+        {
+            // Devuelve una copia de la lista actual de items del carrito
+            return _carrito.GetItems();
+        }
+
+
     }
 }

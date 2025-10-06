@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DeliveryGo.Core.Payment.Adapters
 {
-    internal class MpSdkFalsa
+    public class MpSdkFalsa
     {
         public bool Cobrar(decimal monto)
         {

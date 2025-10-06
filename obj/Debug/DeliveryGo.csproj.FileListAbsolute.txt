@@ -1,2 +1,9 @@
 C:\Users\Kako\Desktop\DeliveryGo-feature-etapa3-pagos\obj\Debug\DeliveryGo.csproj.AssemblyReference.cache
 C:\Users\Kako\Desktop\DeliveryGo-feature-etapa3-pagos\obj\Debug\DeliveryGo.csproj.CoreCompileInputs.cache
+C:\Users\PC\OneDrive\Escritorio\IDRA\2do año\PROGRAMACION 2\DeliveryGo\obj\Debug\DeliveryGo.csproj.AssemblyReference.cache
+C:\Users\PC\OneDrive\Escritorio\IDRA\2do año\PROGRAMACION 2\DeliveryGo\obj\Debug\DeliveryGo.csproj.CoreCompileInputs.cache
+C:\Users\PC\OneDrive\Escritorio\IDRA\2do año\PROGRAMACION 2\DeliveryGo\bin\Debug\DeliveryGo.exe.config
+C:\Users\PC\OneDrive\Escritorio\IDRA\2do año\PROGRAMACION 2\DeliveryGo\bin\Debug\DeliveryGo.exe
+C:\Users\PC\OneDrive\Escritorio\IDRA\2do año\PROGRAMACION 2\DeliveryGo\bin\Debug\DeliveryGo.pdb
+C:\Users\PC\OneDrive\Escritorio\IDRA\2do año\PROGRAMACION 2\DeliveryGo\obj\Debug\DeliveryGo.exe
+C:\Users\PC\OneDrive\Escritorio\IDRA\2do año\PROGRAMACION 2\DeliveryGo\obj\Debug\DeliveryGo.pdb
