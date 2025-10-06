@@ -1,0 +1,2 @@
+C:\Users\Kako\Desktop\DeliveryGo-feature-etapa3-pagos\obj\Debug\DeliveryGo.csproj.AssemblyReference.cache
+C:\Users\Kako\Desktop\DeliveryGo-feature-etapa3-pagos\obj\Debug\DeliveryGo.csproj.CoreCompileInputs.cache
