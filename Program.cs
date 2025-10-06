@@ -3,6 +3,7 @@ using DeliveryGo.Core.Facade;
 using DeliveryGo.Core.Order;
 using DeliveryGo.Core.Order.Observers;
 using DeliveryGo.Core.Strategy.Strategies;
+using DeliveryGo.Core.Utils;
 using DeliveryGo.Interfaces;
 using System;
 using System.Linq;
@@ -33,7 +34,7 @@ namespace DeliveryGo
             do
             {
                 Console.Clear();
-                Console.WriteLine("=== DELIVERY GO 🚚 ===");
+                Console.WriteLine("=== DELIVERY GO ===");
                 Console.WriteLine("1. Agregar producto");
                 Console.WriteLine("2. Quitar producto");
                 Console.WriteLine("3. Cambiar cantidad");
@@ -55,29 +56,22 @@ namespace DeliveryGo
                 switch (opcion)
                 {
                     case 1:
-                        Console.Write("SKU: ");
-                        string sku = Console.ReadLine();
-                        Console.Write("Nombre: ");
-                        string nombre = Console.ReadLine();
-                        Console.Write("Precio: ");
-                        decimal precio = decimal.Parse(Console.ReadLine());
-                        Console.Write("Cantidad: ");
-                        int cantidad = int.Parse(Console.ReadLine());
+                        string sku = Validador.PedirTexto("Ingrese SKU: ");
+                        string nombre = Validador.PedirTexto("Ingrese nombre del producto :");
+                        decimal precio = Validador.PedirDecimal("Ingrese el precio: ");
+                        int cantidad = Validador.PedirEntero("Ingrese la cantidad");
                         checkout.AgregarItem(sku, nombre, precio, cantidad);
                         Console.WriteLine("\n✅ Producto agregado.");
                         break;
 
                     case 2:
-                        Console.Write("SKU a quitar: ");
-                        checkout.QuitarItem(Console.ReadLine());
+                        string skuQuitar = Validador.PedirTexto("SKU a quitar: ");
+                        checkout.QuitarItem(skuQuitar);
                         Console.WriteLine("\n🗑️ Producto quitado.");
                         break;
-
                     case 3:
-                        Console.Write("SKU: ");
-                        string skuCambiar = Console.ReadLine();
-                        Console.Write("Nueva cantidad: ");
-                        int nuevaCant = int.Parse(Console.ReadLine());
+                        string skuCambiar = Validador.PedirTexto("SKU: ");
+                        int nuevaCant = Validador.PedirEntero("Nueva cantidad: ");
                         checkout.CambiarCantidad(skuCambiar, nuevaCant);
                         Console.WriteLine("\n♻️ Cantidad actualizada.");
                         break;
@@ -101,16 +95,17 @@ namespace DeliveryGo
                         break;
 
                     case 6:
-                        Console.Write("Tipo de pago (mp-adapter / tarjeta / transferencia): ");
-                        string tipoPago = Console.ReadLine();
-                        Console.Write("¿Aplicar IVA? (s/n): ");
-                        bool aplicarIVA = Console.ReadLine().ToLower() == "s";
+                        string tipoPago = Validador.PedirTexto("Tipo de pago (mp-adapter / tarjeta / transferencia): ");
+                        bool aplicarIVA = Validador.PedirConfirmacion("¿Aplicar IVA?");
                         Console.Write("¿Cupón de descuento? (dejar vacío si no): ");
                         string cuponStr = Console.ReadLine();
                         decimal? cupon = null;
                         if (!string.IsNullOrWhiteSpace(cuponStr))
                         {
-                            cupon = decimal.Parse(cuponStr);
+                            if (decimal.TryParse(cuponStr, out decimal valor))
+                                cupon = valor;
+                            else
+                                Console.WriteLine("⚠️ Cupón inválido. Se ignorará el descuento.");
                         }
 
                         bool ok = checkout.Pagar(tipoPago, aplicarIVA, cupon);
@@ -118,10 +113,8 @@ namespace DeliveryGo
                         break;
 
                     case 7:
-                        Console.Write("Dirección de entrega: ");
-                        string dir = Console.ReadLine();
-                        Console.Write("Tipo de pago usado: ");
-                        string tipo = Console.ReadLine();
+                        string dir = Validador.PedirTexto("Dirección de entrega: ");
+                        string tipo = Validador.PedirTexto("Tipo de pago usado: ");
                         var pedido = checkout.ConfirmarPedido(dir, tipo);
                         Console.WriteLine($"\n📦 Pedido #{pedido.Id} confirmado. Total: ${pedido.Monto}");
                         break;
@@ -131,14 +124,16 @@ namespace DeliveryGo
                         Console.WriteLine("1. Moto");
                         Console.WriteLine("2. Correo");
                         Console.WriteLine("3. Retiro en tienda");
-                        string opEnvio = Console.ReadLine();
+                        string opEnvio = Validador.PedirTexto("Opción: ");
 
                         switch (opEnvio)
                         {
                             case "1": envio = new EnvioMoto(); break;
                             case "2": envio = new EnvioCorreo(); break;
                             case "3": envio = new RetiroEnTienda(); break;
-                            default: Console.WriteLine("Opción inválida."); break;
+                            default:
+                                Console.WriteLine("⚠️ Opción inválida, se mantiene el envío actual.");
+                                break;
                         }
                         checkout.ElegirEnvio(envio);
                         Console.WriteLine("🚚 Tipo de envío actualizado.");
@@ -175,6 +170,7 @@ namespace DeliveryGo
                 Console.ReadKey();
 
             } while (opcion != 0);
+            
         }
     }
 }
