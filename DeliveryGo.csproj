@@ -73,6 +73,7 @@
     <Compile Include="Core\Strategy\Strategies\EnvioCorreo.cs" />
     <Compile Include="Core\Strategy\Strategies\EnvioMoto.cs" />
     <Compile Include="Core\Strategy\Strategies\RetiroEnTienda.cs" />
+    <Compile Include="Core\Utils\Validador.cs" />
     <Compile Include="Interfaces\ICarritoPort.cs" />
     <Compile Include="Interfaces\ICommand.cs" />
     <Compile Include="Interfaces\IEnvioStrategy.cs" />
