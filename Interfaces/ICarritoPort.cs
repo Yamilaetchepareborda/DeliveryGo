@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DeliveryGo.Core.Command;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,13 @@ namespace DeliveryGo.Interfaces
         void Run(ICommand cmd);                  // ejecuta comando y guarda en historial
         void Undo();
         void Redo();
+
+        ICommand AgregarItem(Item i);
+        ICommand QuitarItem(string sku);
+        ICommand SetCantidad(string sku, int cantidad);
+
+        List<Item> ObtenerItems();
+
     }
 
 }

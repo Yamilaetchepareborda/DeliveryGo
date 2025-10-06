@@ -13,6 +13,7 @@ using System.Threading.Tasks;
 using static DeliveryGo.Core.Enum.Enums;
 using DeliveryGo.Core.Payment.Decorators;
 
+
 namespace DeliveryGo.Core.Facade
 {
     public class CheckoutFacade
@@ -30,16 +31,16 @@ namespace DeliveryGo.Core.Facade
 
         public void AgregarItem(string sku, string nombre, decimal precio, int cantidad)
         {
-            // var item = new Item { Sku = sku, Nombre = nombre, Precio = precio, Cantidad = cantidad }; // comento para cuando este el carrito. 
-            // _carrito.Run(new AgregarItemCommand(new Carrito(), item)); ver despues cuando este armado carrito
+            var item = new Item (sku, nombre, precio, cantidad);
+            _carrito.Run(_carrito.AgregarItem(item));
         }
         public void CambiarCantidad(string sku, int cantidad) 
         { 
-           // _carrito.Run(new SetCantidadCommand(new Carrito(), sku, cantidad));
+           _carrito.Run(_carrito.SetCantidad(sku, cantidad));
         }
-        public void QuitarItem(string sku) 
-        { 
-           // _carrito.Run(new QuitarItemCommand(new Carrito(), sku));
+        public void QuitarItem(string sku)
+        {
+            _carrito.Run(_carrito.QuitarItem(sku));
         }
         public void ElegirEnvio(IEnvioStrategy estrategia) 
         {
@@ -75,7 +76,9 @@ namespace DeliveryGo.Core.Facade
         public Pedido ConfirmarPedido(string direccion, string tipoPago)
         {
             var builder = new PedidoBuilder()
-            //.ConItems(new List<Item>()) // aca va la lista real del carrito 
+             .ConItems(
+             _carrito.ObtenerItems()
+            .Select(i => (sku: i.Sku, nombre: i.Nombre, precio: i.Precio, cantidad: i.Cantidad)))
             .ConDireccion(direccion)
             .ConMetodoPago(tipoPago)
             .ConMonto(CalcularTotal());

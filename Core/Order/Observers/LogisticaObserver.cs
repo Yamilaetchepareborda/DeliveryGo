@@ -18,7 +18,7 @@ namespace DeliveryGo.Core.Order.Observers
             servicio.EstadoCambiado -= OnEstadoCambiado;
         }
 
-        private void OnEstadoCambiado(object? sender, PedidoChangedEventArgs e)
+        private void OnEstadoCambiado(object sender, PedidoChangedEventArgs e)
             => Console.WriteLine($"Logistica: El pedido {e.PedidoId} ha cambiado a estado {e.NuevoEstado} en {e.Cuando}.");
     }
 }

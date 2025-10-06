@@ -7,7 +7,7 @@ using DeliveryGo.Interfaces;
 
 namespace DeliveryGo.Core.Payment.Adapters
 {
-    internal class PagoAdapterMp
+     public class PagoAdapterMp : IPago
     {
         private readonly MpSdkFalsa _sdk;
 
