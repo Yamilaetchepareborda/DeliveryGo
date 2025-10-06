@@ -12,8 +12,18 @@
   
   Por todo lo dicho anteriormente y mucho mas consideramos que este software es ideal para todas aquellas empresas pequeñas/medianas dedicadas a la comercializacion de uno o mas producto que encuentran oportuno migrar hacia el entorno digital,automatizando asi sus ventas.
 
-  ## Como suar la aplicacion
+  ## Como usar la aplicacion
+1. Clonar o descargar el repositorio.
+2. Abrir el proyecto en Visual Studio / Rider / VS Code con .NET SDK.
+3. Compilar el proyecto.
+4. Ejecutar en consola (o ejecutar el debug del IDE): dotnet run
+5. Seguir las opciones del menú (agregar ítems, elegir envío, pagar, confirmar pedido).
+
   ## Integrantes del equipo
+    ###Lorenzo Colombo(https://github.com/LoloColombo)
+    ###Yamila Etchepareborda(https://github.com/Yamilaetchepareborda)
+    ###Emmanuel Espinosa(https://github.com/EmmanuelEspinosa)
+    ###Inaki Velo(https://github.com/kakovelo)
   ## Patrones aplicados
   ## Caso narrado de uso
   ## UML
