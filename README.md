@@ -20,10 +20,10 @@
 5. Seguir las opciones del menú (agregar ítems, elegir envío, pagar, confirmar pedido).
 
   ## Integrantes del equipo
-   - ### [Lorenzo Colombo](https://github.com/LoloColombo)
-   - [Yamila Etchepareborda](https://github.com/Yamilaetchepareborda)
-   - [Emmanuel Espinosa](https://github.com/EmmanuelEspinosa)
-   - [Inaki Velo](https://github.com/kakovelo)
+   - ### *[Lorenzo Colombo](https://github.com/LoloColombo)*
+   - ### *[Yamila Etchepareborda](https://github.com/Yamilaetchepareborda)*
+   - ### *[Emmanuel Espinosa](https://github.com/EmmanuelEspinosa)*
+   - ### *[Inaki Velo](https://github.com/kakovelo)*
   ## Patrones aplicados
   ## Caso narrado de uso
   ## UML
