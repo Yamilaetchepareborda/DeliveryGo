@@ -21,6 +21,8 @@
 
   ## Integrantes del equipo
    - ### *[Lorenzo Colombo](https://github.com/LoloColombo)*
+         - Configuracion de metodos de envio
+         - Umbral para casos especifico de envio()
    - ### *[Yamila Etchepareborda](https://github.com/Yamilaetchepareborda)*
    - ### *[Emmanuel Espinosa](https://github.com/EmmanuelEspinosa)*
    - ### *[Inaki Velo](https://github.com/kakovelo)*
