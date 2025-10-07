@@ -133,6 +133,14 @@
 
 - CheckoutFacade (coordina carrito/Command, envío/Strategy, pago/Factory+Adapter+Decorator, armado/Builder y notificaciones/Observer)
   ## Caso narrado de uso
+  1. El usuario agrega varios productos al carrito.
+  2. Se equivoca y elimina un producto del carrito.
+  3. Cambia la cantidad de un producto ya agregado.
+  4. Selecciona ver carrito para verificar que todos los productos se haya agregado bien.
+  5. Calcula el precio total de la compra con envio incluido.
+  6. Elige un metodo de pago y realiza la compra.
+  7. Confirma el pedido agregando a direccion de entrega.
+  8. Salir.
   ## [UML](https://drive.google.com/file/d/1Fl7Vb_uyqHzhXtvGhuZUbSdFqDyIgFaE/view?usp=sharing)
     *Link hacia el UML del proyecto.*
   ## Retos Futuros
