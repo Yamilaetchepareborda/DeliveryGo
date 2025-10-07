@@ -30,7 +30,14 @@
          - Implemento PedidoService y sus observadores (ClienteObserver,LogisticaObserver,AuditoriaObserver) para notificar los cambios de estado del pedido.
          - Cordino todo en la CheckoutFacade(módulos de carrito, envío, pago y pedido)
    - ### *[Emmanuel Espinosa](https://github.com/EmmanuelEspinosa)*
+         - Desarrolló la clase carrito,con comandos de agregar, quitar y modificar ítems.
+         - Creó las clases AgregarItemCommand, QuitarItemCommand, SetCantidadCommand y EditorCarrito que sirven como comandos y historial.
+         - Implementó la clase CarritoPort, que actúa como adaptador del carrito principal y expone los métodos públicos. 
    - ### *[Inaki Velo](https://github.com/kakovelo)*
+         - Implementó el sistema de pagos.
+         - Desarrolló las clases de pago concretas (PagoTarjeta, PagoTransfer y PagoMp) junto con la PagoFactory, encargada de instanciar el tipo de pago.
+         - Creó el PagoAdapterMp, que adapta una SDK externa (MpSdkFalsa) al formato del sistema, permitiendo integrar un método de pago externo.
+         - Implementó los decoradores PagoConImpuesto y PagoConCupon, que agregan funcionalidad adicional al pago base.
   ## Patrones aplicados
   ## Caso narrado de uso
   ## UML
