@@ -40,11 +40,11 @@
          - Implementó los decoradores PagoConImpuesto y PagoConCupon, que agregan funcionalidad adicional al pago base.
   ## Patrones aplicados
   
-- ## Command + Undo/Redo
+ ## Command + Undo/Redo
 
-Encapsula acciones como objetos y permite deshacer/rehacer sin acoplar UI ↔ lógica.
+  Encapsula acciones como objetos y permite deshacer/rehacer sin acoplar UI ↔ lógica.
 
-- ### Implementado en:
+ ### Implementado en:
 
 - AgregarItemCommand, QuitarItemCommand, SetCantidadCommand (implementan ICommand)
 - EditorCarrito (invoker con pilas _undo / _redo)
@@ -52,83 +52,83 @@ Encapsula acciones como objetos y permite deshacer/rehacer sin acoplar UI ↔ l�
 - CarritoPort / ICarritoPort (puerto seguro para ejecutar comandos)	
 
 
-- ## Strategy (envíos)
+ ## Strategy (envíos)
 
-Selecciona el algoritmo de cálculo de envío en runtime.
+  Selecciona el algoritmo de cálculo de envío en runtime.
 
-- ### Implementado en:
+ ### Implementado en:
 
 - IEnvioStrategy
 - Estrategias: EnvioMoto, EnvioCorreo, RetiroEnTienda
 - EnvioService (contexto: SetStrategy, Calcular())
 
 
-- ## Factory (pagos)
+ ## Factory (pagos)
 
-Centraliza la creación de métodos de pago sin if/switch esparcidos.
+  Centraliza la creación de métodos de pago sin if/switch esparcidos.
 
-- ### Implementado en:
+ ### Implementado en:
 
 - PagoFactory.Create(tipo)
 - Productos: PagoTarjeta, PagoMp, PagoTransferencia (todos IPago)
 
 
-- ## Adapter (SDK de pago)
+ ## Adapter (SDK de pago)
 
-Adapta una API/SDK externa a nuestra interfaz de pagos.
+  Adapta una API/SDK externa a nuestra interfaz de pagos.
 
-- ### Implementado en:
+ ### Implementado en:
 
 - PagoAdapterMp : IPago
 - Adapta MpSdkFalsa (u otra SDK) al contrato IPago
 
 
-- ## Decorator (impuestos y cupones)
+ ## Decorator (impuestos y cupones)
 
-Agrega responsabilidades al pago (IVA/descuento) envolviendo objetos.
+  Agrega responsabilidades al pago (IVA/descuento) envolviendo objetos.
 
-- ### Implementado en:
+ ### Implementado en:
 
 - PagoConImpuesto : IPago
 - PagoConCupon : IPago
 - Composición: decoran un IPago base (p. ej., PagoMp)
 
 
-- ## Singleton (configuración)
+ ## Singleton (configuración)
 
-Unica instancia compartida de parámetros globales.
+  Unica instancia compartida de parámetros globales.
 
-- ### Implementado en:
+ ### Implementado en:
 
 - ConfigManager.Instance (p. ej., IVA, EnvioGratisDesde)
 - Consumido por Strategy y Decorators de pago
 
 
-- ## Builder (pedido)
+ ## Builder (pedido)
 
-Construye Pedido paso a paso con validaciones previas a Build().
+  Construye Pedido paso a paso con validaciones previas a Build().
 
-- ### Implementado en:
+ ### Implementado en:
 
 - IPedidoBuilder, PedidoBuilder (métodos ConItems(...), ConDireccion(...), ConMetodoPago(...), Build())
 - Validaciones internas antes de crear el objeto final 
 
 
-- ## Observer (estado del pedido)
+ ## Observer (estado del pedido)
 
-Desacopla la notificación de cambios de estado a múltiples interesados.
+  Desacopla la notificación de cambios de estado a múltiples interesados.
 
-- ### Implementado en:
+ ### Implementado en:
 
 - PedidoService (evento/notify en cambios: Recibido → ... → Entregado)
 - Observers: ClienteObserver, LogisticaObserver, AuditoriaObserver
 
 
-- ## Facade (checkout)
+ ## Facade (checkout)
 
-Orquesta el flujo de compra detrás de una interfaz simple.
+  Orquesta el flujo de compra detrás de una interfaz simple.
 
-- ### Implementado en:
+ ### Implementado en:
 
 - CheckoutFacade (coordina carrito/Command, envío/Strategy, pago/Factory+Adapter+Decorator, armado/Builder y notificaciones/Observer)
   ## Caso narrado de uso
