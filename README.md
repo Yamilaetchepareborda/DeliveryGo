@@ -41,7 +41,7 @@
   
   ## Patrones aplicados
   
- ## Command + Undo/Redo
+ ###Command + Undo/Redo
 
   Encapsula acciones como objetos y permite deshacer/rehacer sin acoplar UI ↔ lógica.
 
@@ -53,7 +53,7 @@
 - CarritoPort / ICarritoPort (puerto seguro para ejecutar comandos)	
 
 
- ## Strategy (envíos)
+ ### Strategy (envíos)
 
   Selecciona el algoritmo de cálculo de envío en runtime.
 
@@ -64,7 +64,7 @@
 - EnvioService (contexto: SetStrategy, Calcular())
 
 
- ## Factory (pagos)
+ ### Factory (pagos)
 
   Centraliza la creación de métodos de pago sin if/switch esparcidos.
 
@@ -74,7 +74,7 @@
 - Productos: PagoTarjeta, PagoMp, PagoTransferencia (todos IPago)
 
 
- ## Adapter (SDK de pago)
+ ### Adapter (SDK de pago)
 
   Adapta una API/SDK externa a nuestra interfaz de pagos.
 
@@ -84,7 +84,7 @@
 - Adapta MpSdkFalsa (u otra SDK) al contrato IPago
 
 
- ## Decorator (impuestos y cupones)
+ ### Decorator (impuestos y cupones)
 
   Agrega responsabilidades al pago (IVA/descuento) envolviendo objetos.
 
@@ -95,7 +95,7 @@
 - Composición: decoran un IPago base (p. ej., PagoMp)
 
 
- ## Singleton (configuración)
+ ### Singleton (configuración)
 
   Unica instancia compartida de parámetros globales.
 
@@ -105,7 +105,7 @@
 - Consumido por Strategy y Decorators de pago
 
 
- ## Builder (pedido)
+ ### Builder (pedido)
 
   Construye Pedido paso a paso con validaciones previas a Build().
 
@@ -115,7 +115,7 @@
 - Validaciones internas antes de crear el objeto final 
 
 
- ## Observer (estado del pedido)
+ ### Observer (estado del pedido)
 
   Desacopla la notificación de cambios de estado a múltiples interesados.
 
@@ -125,7 +125,7 @@
 - Observers: ClienteObserver, LogisticaObserver, AuditoriaObserver
 
 
- ## Facade (checkout)
+ ### Facade (checkout)
 
   Orquesta el flujo de compra detrás de una interfaz simple.
 
@@ -138,6 +138,7 @@
   ## Retos Futuros
     Dentro de un futuro estamos interesados en agregar distintas funcionalidades que completen ciertas falencias del programa en su estado actual.
     Algunas de estas son:
+    
     - Catalogo de productos.
     - Detalles del producto al momento de agregar al carrito.
     - Integracion de una interfaz grafica para mejorar la UI y UE.
