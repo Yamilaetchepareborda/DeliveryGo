@@ -12,7 +12,7 @@
 
    Por todo lo dicho anteriormente y mucho mas consideramos que este software es ideal para todas aquellas empresas pequeñas/medianas dedicadas a la comercializacion de uno o mas producto que encuentran oportuno migrar hacia el entorno digital,automatizando asi sus ventas.
 
-  ## Como usar la aplicacion
+  ## Como usar la aplicacion🤔
 1. Clonar o descargar el repositorio.
 2. Abrir el proyecto en Visual Studio / Rider / VS Code con .NET SDK.
 3. Compilar el proyecto.
