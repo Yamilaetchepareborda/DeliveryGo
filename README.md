@@ -21,9 +21,14 @@
 
   ## Integrantes del equipo
    - ### *[Lorenzo Colombo](https://github.com/LoloColombo)*
-         - Configuracion de metodos de envio
-         - Umbral para casos especifico de envio()
+         - Implementó las estrategias de envío (EnvioMoto, EnvioCorreo y RetiroEnTienda)
+         - Configuró el ConfigManager, encargado de almacenar valores globales como el IVA y el umbral para envío gratis
+         - Desarrolló la clase EnvioService, que permite cambiar dinámicamente la estrategia de envío y calcular el costo total según la opción elegida 
    - ### *[Yamila Etchepareborda](https://github.com/Yamilaetchepareborda)*
+         - Implemento la clase Pedido
+         - Desarrolló el PedidoBuilder para construir pedidos paso a paso y validar los datos antes de crearlos.
+         - Implemento PedidoService y sus observadores (ClienteObserver,LogisticaObserver,AuditoriaObserver) para notificar los cambios de estado del pedido.
+         - Cordino todo en la CheckoutFacade(módulos de carrito, envío, pago y pedido)
    - ### *[Emmanuel Espinosa](https://github.com/EmmanuelEspinosa)*
    - ### *[Inaki Velo](https://github.com/kakovelo)*
   ## Patrones aplicados
