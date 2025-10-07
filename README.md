@@ -38,6 +38,7 @@
          - Desarrolló las clases de pago concretas (PagoTarjeta, PagoTransfer y PagoMp) junto con la PagoFactory, encargada de instanciar el tipo de pago.
          - Creó el PagoAdapterMp, que adapta una SDK externa (MpSdkFalsa) al formato del sistema, permitiendo integrar un método de pago externo.
          - Implementó los decoradores PagoConImpuesto y PagoConCupon, que agregan funcionalidad adicional al pago base.
+  
   ## Patrones aplicados
   
  ## Command + Undo/Redo
@@ -132,7 +133,7 @@
 
 - CheckoutFacade (coordina carrito/Command, envío/Strategy, pago/Factory+Adapter+Decorator, armado/Builder y notificaciones/Observer)
   ## Caso narrado de uso
-  ## UML
+  ## [UML](https://drive.google.com/file/d/1Fl7Vb_uyqHzhXtvGhuZUbSdFqDyIgFaE/view?usp=sharing)
   ## Retos Futuros
   ## Notas Finales
 
