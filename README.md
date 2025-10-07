@@ -134,7 +134,13 @@
 - CheckoutFacade (coordina carrito/Command, envío/Strategy, pago/Factory+Adapter+Decorator, armado/Builder y notificaciones/Observer)
   ## Caso narrado de uso
   ## [UML](https://drive.google.com/file/d/1Fl7Vb_uyqHzhXtvGhuZUbSdFqDyIgFaE/view?usp=sharing)
+    *Link hacia el UML del proyecto.*
   ## Retos Futuros
+    Dentro de un futuro estamos interesados en agregar distintas funcionalidades que completen ciertas falencias del programa en su estado actual.
+    Algunas de estas son:
+    - Catalogo de productos.
+    - Detalles del producto al momento de agregar al carrito.
+    - Integracion de una interfaz grafica para mejorar la UI y UE.
   ## Notas Finales
 
 
