@@ -1,152 +1,79 @@
-# DeliveryGo🛵
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
- *Mini-ecommerce en consola desarrollado en C# como trabajo integral de Patrones de Diseño para la materia Programación II.*
+# DeliveryGo 🛵
 
-  El programa ofrece a el cliente la gestion de un Mini-ecommerce.
-  Utilizando las herramientas que nos brinda C# construimos diferentes estructuras y funcionalidades que nos permiten:
+Console mini e-commerce in **C#** that applies **9 GoF design patterns** to a real checkout flow: cart with undo/redo, shipping strategies, payment methods with taxes and coupons, and order status notifications.
 
-- Gestionar/Manejar diferentes productos(Permite agregar,eliminar,modificar y controlar el Stock).
-- Gestionar productos en un "carrito"(Permite sumar,restar y eliminar productos). 
-- Concretar el/los pagos(Permite pagos con tarjeta,transferencia bancaria y billeteras virtuales).
-- Gestionar la logistica del envio(Permite envio en moto, por correo y retiro en el local ,ademas de seguimiento del mismo).
+> 🇦🇷 Mini e-commerce de consola en C# que aplica 9 patrones de diseño (Command, Strategy, Factory, Adapter, Decorator, Singleton, Builder, Observer y Facade). Trabajo integral en equipo de Programación II.
 
-   Por todo lo dicho anteriormente y mucho mas consideramos que este software es ideal para todas aquellas empresas pequeñas/medianas dedicadas a la comercializacion de uno o mas producto que encuentran oportuno migrar hacia el entorno digital,automatizando asi sus ventas.
+```
+=== DELIVERY GO ===
+1. Agregar producto
+2. Cambiar cantidad
+3. Quitar producto
+4. Ver carrito y subtotal
+5. Deshacer (Undo)
+6. Rehacer (Redo)
+7. Cambiar método de envío
+8. Pagar pedido
+9. Confirmar pedido
+0. Salir
+```
 
-  ## Como usar la aplicacion🤔
-1. Clonar o descargar el repositorio.
-2. Abrir el proyecto en Visual Studio / Rider / VS Code con .NET SDK.
-3. Compilar el proyecto.
-4. Ejecutar en consola (o ejecutar el debug del IDE): dotnet run
-5. Seguir las opciones del menú (agregar ítems, elegir envío, pagar, confirmar pedido).
+## Tech stack
 
-  ## Integrantes del equipo🚹🚺
-   - ### *[Lorenzo Colombo](https://github.com/LoloColombo)*
-         - Implementó las estrategias de envío (EnvioMoto, EnvioCorreo y RetiroEnTienda)
-         - Configuró el ConfigManager, encargado de almacenar valores globales como el IVA y el umbral para envío gratis
-         - Desarrolló la clase EnvioService, que permite cambiar dinámicamente la estrategia de envío y calcular el costo total según la opción elegida 
-   - ### *[Yamila Etchepareborda](https://github.com/Yamilaetchepareborda)*
-         - Implemento la clase Pedido
-         - Desarrolló el PedidoBuilder para construir pedidos paso a paso y validar los datos antes de crearlos.
-         - Implemento PedidoService y sus observadores (ClienteObserver,LogisticaObserver,AuditoriaObserver) para notificar los cambios de estado del pedido.
-         - Cordino todo en la CheckoutFacade(módulos de carrito, envío, pago y pedido)
-   - ### *[Emmanuel Espinosa](https://github.com/EmmanuelEspinosa)*
-         - Desarrolló la clase carrito,con comandos de agregar, quitar y modificar ítems.
-         - Creó las clases AgregarItemCommand, QuitarItemCommand, SetCantidadCommand y EditorCarrito que sirven como comandos y historial.
-         - Implementó la clase CarritoPort, que actúa como adaptador del carrito principal y expone los métodos públicos. 
-   - ### *[Inaki Velo](https://github.com/kakovelo)*
-         - Implementó el sistema de pagos.
-         - Desarrolló las clases de pago concretas (PagoTarjeta, PagoTransfer y PagoMp) junto con la PagoFactory, encargada de instanciar el tipo de pago.
-         - Creó el PagoAdapterMp, que adapta una SDK externa (MpSdkFalsa) al formato del sistema, permitiendo integrar un método de pago externo.
-         - Implementó los decoradores PagoConImpuesto y PagoConCupon, que agregan funcionalidad adicional al pago base.
-  
-  ## Patrones aplicados🧩
-  
- ### Command + Undo/Redo 🎮 
+- C# · .NET Framework 4.8 · console app
+- Object-oriented design with interfaces (`ICommand`, `IEnvioStrategy`, `IPago`, `IPedidoBuilder`, `ICarritoPort`)
 
-  Encapsula acciones como objetos y permite deshacer/rehacer sin acoplar UI ↔ lógica.
+## Features
 
-**Implementado en:**
-- AgregarItemCommand, QuitarItemCommand, SetCantidadCommand (implementan ICommand)
-- EditorCarrito (invoker con pilas _undo / _redo)
-- Carrito (receiver de altas/bajas/modificaciones)
-- CarritoPort / ICarritoPort (puerto seguro para ejecutar comandos)	
+- Add, remove and change the quantity of cart items, with **undo / redo**
+- Choose shipping at runtime: motorbike, mail or store pickup
+- Pay by card, bank transfer or a (simulated) Mercado Pago SDK, with optional tax and coupon
+- Build and confirm the order with a delivery address and validations
+- Order status changes are notified to the client, logistics and audit modules
 
+## Design patterns
 
- ### Strategy (envíos)♟️ 
+| Pattern | Where | Why |
+| --- | --- | --- |
+| **Command** + undo/redo | `AgregarItemCommand`, `QuitarItemCommand`, `SetCantidadCommand`, `EditorCarrito` | Cart actions as objects with undo/redo stacks |
+| **Strategy** | `IEnvioStrategy`, `EnvioMoto`, `EnvioCorreo`, `RetiroEnTienda`, `EnvioService` | Swap the shipping cost algorithm at runtime |
+| **Factory** | `PagoFactory` | Create payment methods without scattered `switch` statements |
+| **Adapter** | `PagoAdapterMp` → `MpSdkFalsa` | Fit an external payment SDK into the `IPago` contract |
+| **Decorator** | `PagoConImpuesto`, `PagoConCupon` | Add tax / discount by wrapping any payment |
+| **Singleton** | `ConfigManager` | Shared settings (VAT, free-shipping threshold) |
+| **Builder** | `PedidoBuilder` | Build an order step by step and validate before `Build()` |
+| **Observer** | `PedidoService` + `ClienteObserver`, `LogisticaObserver`, `AuditoriaObserver` | Notify status changes to several modules |
+| **Facade** | `CheckoutFacade` | One simple entry point that orchestrates the whole checkout |
 
-  Selecciona el algoritmo de cálculo de envío en runtime.
+UML diagram: [Google Drive](https://drive.google.com/file/d/1Fl7Vb_uyqHzhXtvGhuZUbSdFqDyIgFaE/view?usp=sharing)
 
-**Implementado en:**
-- IEnvioStrategy
-- Estrategias: EnvioMoto, EnvioCorreo, RetiroEnTienda
-- EnvioService (contexto: SetStrategy, Calcular())
+## Getting started
 
+Requires Windows with the .NET SDK (or Visual Studio) and the .NET Framework 4.8 targeting pack.
 
- ### Factory (pagos) 🏭 
+```bash
+dotnet build
+bin/Debug/DeliveryGo.exe
+```
 
-  Centraliza la creación de métodos de pago sin if/switch esparcidos.
+Or open `DeliveryGo.sln` in Visual Studio and press F5.
 
-**Implementado en:**
-- PagoFactory.Create(tipo)
-- Productos: PagoTarjeta, PagoMp, PagoTransferencia (todos IPago)
+## What I learned
 
+- Designing the **order module** end to end: `Pedido`, a `PedidoBuilder` that validates before building, and an Observer-based `PedidoService`.
+- Using a **Facade** to coordinate modules written by different teammates behind a single interface.
+- Working as a team on one codebase with Git, splitting the work by pattern/module.
 
- ### Adapter (SDK de pago) 🔌 
+## Team
 
-  Adapta una API/SDK externa a nuestra interfaz de pagos.
+| Member | Main contributions |
+| --- | --- |
+| [Lorenzo Colombo](https://github.com/LoloColombo) | Shipping strategies, `EnvioService`, `ConfigManager` |
+| [**Yamila Etchepareborda**](https://github.com/Yamilaetchepareborda) | `Pedido`, `PedidoBuilder`, `PedidoService` + observers, `CheckoutFacade` |
+| [Emmanuel Espinosa](https://github.com/EmmanuelEspinosa) | Cart, commands with undo/redo, `CarritoPort` |
+| [Iñaki Velo](https://github.com/kakovelo) | Payments: concrete methods, `PagoFactory`, `PagoAdapterMp`, decorators |
 
-**Implementado en:**
-- PagoAdapterMp : IPago
-- Adapta MpSdkFalsa (u otra SDK) al contrato IPago
+## Next steps
 
-
- ### Decorator (impuestos y cupones) 🎀 
-
-  Agrega responsabilidades al pago (IVA/descuento) envolviendo objetos.
-
-**Implementado en:**
-- PagoConImpuesto : IPago
-- PagoConCupon : IPago
-- Composición: decoran un IPago base (p. ej., PagoMp)
-
-
- ### Singleton (configuración)1️⃣ 
-
-  Unica instancia compartida de parámetros globales.
-
-**Implementado en:**
-- ConfigManager.Instance (p. ej., IVA, EnvioGratisDesde)
-- Consumido por Strategy y Decorators de pago
-
-
- ### Builder (pedido) 🏗️ 
-
-  Construye Pedido paso a paso con validaciones previas a Build().
-
- **Implementado en:**
-
-- IPedidoBuilder, PedidoBuilder (métodos ConItems(...), ConDireccion(...), ConMetodoPago(...), Build())
-- Validaciones internas antes de crear el objeto final 
-
-
- ### Observer (estado del pedido) 👀 
-
-  Desacopla la notificación de cambios de estado a múltiples interesados.
-
- **Implementado en:**
-
-- PedidoService (evento/notify en cambios: Recibido → ... → Entregado)
-- Observers: ClienteObserver, LogisticaObserver, AuditoriaObserver
-
-
- ### Facade (checkout) 🚪 
-
-  Orquesta el flujo de compra detrás de una interfaz simple.
-
- **Implementado en:**
-
-- CheckoutFacade (coordina carrito/Command, envío/Strategy, pago/Factory+Adapter+Decorator, armado/Builder y notificaciones/Observer)
-
-   ## Caso narrado de uso📖
-  1. El usuario agrega varios productos al carrito.
-  2. Se equivoca y elimina un producto del carrito.
-  3. Cambia la cantidad de un producto ya agregado.
-  4. Selecciona ver carrito para verificar que todos los productos se haya agregado bien.
-  5. Calcula el precio total de la compra con envio incluido.
-  6. Elige un metodo de pago y realiza la compra.
-  7. Confirma el pedido agregando a direccion de entrega.
-
-  ## [UML](https://drive.google.com/file/d/1Fl7Vb_uyqHzhXtvGhuZUbSdFqDyIgFaE/view?usp=sharing)↔️
-    *Link hacia el UML del proyecto.*
-
-   ## Retos Futuros🔜
-    Dentro de un futuro estamos interesados en agregar distintas funcionalidades que completen ciertas falencias del programa en su estado actual.
-    Algunas de estas son:
-    
-    - Catalogo de productos.
-    - Detalles del producto al momento de agregar al carrito.
-    - Integracion de una interfaz grafica para mejorar la UI y UE.
-  
-
-
-
+- Product catalog and product details when adding to the cart
+- Graphical user interface
